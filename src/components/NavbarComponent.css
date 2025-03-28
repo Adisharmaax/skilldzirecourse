@@ -1,0 +1,62 @@
+/* Main Navbar */
+.main-navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 30px; /* Adjust height as needed */
+    padding: 20px;
+    background-color: black;text-indent: 30px;
+  }
+  
+  .main-navbar .nav-link {
+    color: white !important;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .main-navbar .nav-link:hover,
+  .main-navbar .nav-dropdown:hover {
+    color: rgb(255, 89, 0) !important;
+  }
+  .nav-dropdown{
+    padding: 60px;
+  }
+  
+  /* Sub Navbar */
+  .sub-navbar {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .sub-navbar .job-channel-btn {
+    background-color: rgb(255, 89, 0);
+    color: white;
+    margin-left: 9px;
+    border: none;
+  }
+  
+  .sub-navbar .job-channel-btn:hover {
+    background-color: darkorange;
+  }
+  
+  /* Dropdown Styling */
+  .dropdown-content {
+    display: flex;padding: 0;
+  }
+  .explore-dropdown{padding: 0;}
+  .dropdown-left {
+    min-width: 250px;padding: 0;
+    background-color: #bcb9b9;
+  }
+  
+  
+  .dropdown-right {
+    padding: 0px;
+    min-width: 350px;
+    border-left: 1px solid #ddd;
+  }
+  
+  .navbar-nav .nav-link {
+    padding-right: 15px;
+  }
+  
